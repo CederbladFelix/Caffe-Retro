@@ -51,11 +51,13 @@
 }
 
 .section > p:first-of-type {
-  margin-right: 20rem;
+  position: relative;
+  right: 20rem;
 }
 
 .section > p:last-of-type {
-  margin-left: 20rem;
+  position: relative;
+  left: 20rem;
 }
 
 .table {
@@ -90,7 +92,7 @@
   background-image: url("./assets/cosy.jpg");
 }
 
-@media only screen and (max-width: 1250px),
+@media only screen and (max-width: 1550px),
   only screen and (max-height: 800px) {
   .hide-on-small-viewarea {
     display: none;
@@ -109,7 +111,7 @@
   }
 
   .section > p:first-of-type {
-    margin-right: 0;
+    right: 0;
   }
 
   .table {
